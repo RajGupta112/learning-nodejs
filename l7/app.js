@@ -1,5 +1,4 @@
-const http = require('http'); // ✅ use built-in http module
-
+const http = require('http');
 const server = http.createServer((req, res) => {
   res.end("Raj is the next billionaire 🚀");
 });
